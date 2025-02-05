@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/example/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp app.css $DEPLOYPATH
+    - /bin/cp app.jsx $DEPLOYPATH
+    - /bin/cp index.css $DEPLOYPATH
+    - /bin/cp main.jsx $DEPLOYPATH
