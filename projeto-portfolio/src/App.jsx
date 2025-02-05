@@ -9,7 +9,10 @@ function App() {
     <>
       <div className="container-menu">
         <div className="menu">
-          <h1>Menu</h1>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Project</a>
+          <a href="#">Experiencia</a>
         </div>
       </div>
       <div className='container-react'>
